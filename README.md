@@ -2,35 +2,20 @@
 Overview
 Write a program using data structures, functions and reading data from a file to simulate a preferential
 voting system.
+
 Reminders
 • Your code must be done individually.
 • Your code will be graded in part by an automated system.
 • Your code may be compared to other submissions using computer software.
 • You can submit your code up to 48 hours late, with a deduction of 0.5% per hour (or part of an
 hour) that the assignment is late.
+
 Background
-Canadian provincial and federal elections use a ‘first-pastthe-post’ system, where every voter casts a vote for one
-candidate in their riding and the candidate with the most
-votes wins. In this way, every riding elects one
-representative and the party that elects the most
-representatives (typically) forms the government. When
-there are more than two candidates in a riding, it is possible
-that the candidate who wins has not received votes from the
-majority of voters.
-Other systems for elections with more than two candidates
-exist to attempt to represent the preferences of voters. One
-system is called “Instant Runoff Voting” (IRV). IRV may also
-be called other names like Ranked Choice Voting or
-Alternative Voting.
-In this system, each voter is given a ballot where they can
-rank as many of the candidates as they like with numbers.
-The candidate a voter marks with 1 in their most preferred:
-that voter most wants the candidate marked with 1 to be
-elected. Lower numbers represent lower preferences: “If my
-first-choice candidate is not elected, then I would prefer this
-candidate as my second choice”. A hypothetical example of a filled ranked ballot is shown in Figure 1.
-As we see, the voter does not need to rank all candidates. Any candidate not ranked by a voter is
-ignored.
+Canadian provincial and federal elections use a ‘first-pastthe-post’ system, where every voter casts a vote for one candidate in their riding and the candidate with the most votes wins. In this way, every riding elects one
+representative and the party that elects the most representatives (typically) forms the government. When there are more than two candidates in a riding, it is possible that the candidate who wins has not received votes from the majority of voters.
+
+Other systems for elections with more than two candidates exist to attempt to represent the preferences of voters. One system is called “Instant Runoff Voting” (IRV). IRV may also be called other names like Ranked Choice Voting or Alternative Voting.
+In this system, each voter is given a ballot where they can rank as many of the candidates as they like with numbers. The candidate a voter marks with 1 in their most preferred: that voter most wants the candidate marked with 1 to be elected. Lower numbers represent lower preferences: “If my first-choice candidate is not elected, then I would prefer this candidate as my second choice”. A hypothetical example of a filled ranked ballot is shown in Figure 1. As we see, the voter does not need to rank all candidates. Any candidate not ranked by a voter is ignored.
 IRV is used in several elections worldwide: Australia uses IRV (and similar variants) in federal and state
 elections, political parties in Canada use it to elect leaders and the City of London used it to elect
 Figure 1: hypothetical ranked choice ballot (from
