@@ -3,13 +3,6 @@ Overview
 Write a program using data structures, functions and reading data from a file to simulate a preferential
 voting system.
 
-Reminders
-• Your code must be done individually.
-• Your code will be graded in part by an automated system.
-• Your code may be compared to other submissions using computer software.
-• You can submit your code up to 48 hours late, with a deduction of 0.5% per hour (or part of an
-hour) that the assignment is late.
-
 Background
 Canadian provincial and federal elections use a ‘first-pastthe-post’ system, where every voter casts a vote for one candidate in their riding and the candidate with the most votes wins. In this way, every riding elects one
 representative and the party that elects the most representatives (typically) forms the government. When there are more than two candidates in a riding, it is possible that the candidate who wins has not received votes from the majority of voters.
